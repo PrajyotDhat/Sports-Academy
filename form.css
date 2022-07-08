@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+
+#page2{
+    background: url(Images/HomePage.jpeg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+.navbar{
+    height: 1px;
+}
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+    list-style: none;
+}
+.navbar ul li a{
+    color: aqua;
+    font-size: 20px;
+    padding: 7px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+a.active,a:hover{
+    background: red;
+    transition: 0.5s
+}
+.main{
+   margin-top: 100px;
+}
+.cards{
+width: 30%;
+display:inline-block;
+padding-left: 35px;
+}
+.img1 img{
+ width: 100%;
+ border-radius: 10px;
+}
+.description{
+    text-align: center;
+    padding: 0px;
+}
+button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: large;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.title{
+    text-align: center;
+    font-size:x-large;
+    font-style: oblique;
+}
+h3{
+    color: rgb(191, 192, 210);
+}
+h2{ 
+ text-align: center;
+ padding-top: 170px;
+ font-size: xx-large;
+ font-style: oblique;
+ color: rgb(182, 84, 14);
+}
+#page3{
+    background: url(Images/NewsPage.jpeg)no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+    .text{
+          display: flex;
+          margin-top: 130px;
+    }
+    .box{
+        width: 70%;
+        background-color: gray;
+        border-radius: 10px;
+        margin:40px;
+    }
+    .photo img{
+        width: 100%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .para{
+        text-align: center;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+    #page4{
+        background: url(Images/ServicesPage.jpeg)no-repeat;
+        background-position:center;
+        background-size:cover; 
+        height: 100vh;
+    }
+    .head{
+        margin-top: 100px;
+        color:rgb(255, 208, 0);
+        font-style: oblique;
+        font-size:xx-large;
+        text-align: center;
+    }
+    .table{
+       width: 1000px;
+        border-collapse: collapse;
+        margin-top: 40px;
+        margin-left: 300px;
+    }
+    .table th,td{
+        border:5px solid rgb(213, 141, 16);
+        padding:18px 27px;
+    }
+    th td{
+        font-size: x-large;   
+    }
+   .t1{
+    background:rgb(114, 17, 169);
+    font-style: italic;
+   }
+   .t2{
+    background:rgb(169, 17, 126);
+    font-style: italic;
+   }
+   #page5{
+    background: url(Images/AboutUsPage.jpeg)no-repeat;
+    background-position:center;
+    background-size:cover; 
+    height: 100vh; 
+   }
+.only{
+    height: 752px;
+    width: 600px;  
+}
+.para1{
+    border: 5px solid green;
+    width: 700px;
+    height: 400px;
+    float: right;
+     margin-top: -600px;
+    justify-content: center;
+    margin-right: 140px;
+    background-image: linear-gradient(green,blue);
+    text-align: center;
+}
+.para1 p{
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:30px;
+    color: rgb(203, 181, 17);
+    display: flex;
+}
+button{
+    margin-top: 30px;
+    padding: 10px;
+}
